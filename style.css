@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction:column;
+
+}
+
+.main-header {
+    width: 100vw;
+    height: 12vh;
+    background-color: #E2EFDE;
+}
+
+.home-splash{
+    width: 100vw;
+    height: 74vh;
+    background-color:#519872;
+}
+
+
+.exercise-overview{
+    width: 100vw;
+    height: 54vh;
+    background-color:#E2EFDE;
+}
+
+.entertainment-overview, .learn-overview{
+    width: 100vw;
+    height: 54vh;
+    background-color:#E2EFDE;
+}
+
+.footer-normal{
+    width: 100vw;
+    height: 10vh;
+    background-color:#474747;
+}
+.text-description{
+    border: 1px solid;
+}
