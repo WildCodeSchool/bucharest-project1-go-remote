@@ -1,33 +1,70 @@
+*{
+    margin: 0;
+    border: 0;
+}
 .container {
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
+    flex-wrap: wrap;
 
 }
 
 .main-header {
     width: 100vw;
-    height: 12vh;
+    height: 10vh;
     background-color: #E2EFDE;
+    /* border: 1.5px solid red; */
 }
 
 .home-splash{
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    justify-content: center;
+    align-items: flex-end;
     width: 100vw;
     height: 74vh;
     background-color:#519872;
+    /* border: 1.5px solid red; */
+
+}
+.splash-graphic{
+   
+    align-self: center;
+    width: 36%;
+    display: flex;
+    
+
+}
+.splash-img {
+    width: 100%;
+    position: relative;
+    left: 11%;
+    
 }
 
-
-.exercise-overview{
+.splash-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    
+    align-self: center;
+    border-left: 2px solid #474747;
+    width: 35vw;}
+.splash-text h2{
+    font-size: 0.4em;
+}
+.exercise-overview, .entertainment-overview, .learn-overview{
+    display: flex;
+    /* flex-wrap: wrap; */
     width: 100vw;
     height: 54vh;
     background-color:#E2EFDE;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* border: 1.5px solid red; */
+
 }
 
-.entertainment-overview, .learn-overview{
-    width: 100vw;
-    height: 54vh;
-    background-color:#E2EFDE;
-}
+
 
 .footer-normal{
     width: 100vw;
@@ -35,5 +72,37 @@
     background-color:#474747;
 }
 .text-description{
-    border: 1px solid;
+    /* flex-basis: auto; */
+    width:  45%;
+    align-self: flex-end;
+    margin-bottom: 18vh;
+    margin-left: 15%;
+    margin-right: 5%;
+    /* border: 1.5px solid rgb(12, 100, 49); */
 }
+.text-description h2 {
+    
+    text-align: center;
+    margin-top:10vh;
+    margin-bottom: 5vh;
+    font-size: 2em;
+
+}
+.text-description h3 {
+    font-size: 1.1em;
+}
+.graphics{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid #474747; */
+   
+    
+}
+.inside-img{
+    max-height: 90%;
+    max-width: 65%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+
