@@ -33,14 +33,24 @@
     width: 46%;
     display: flex;
     margin-top: 5%;
+  
+    
+}
+    @keyframes grow {
+        from {width: 20%;
+            left: 0%;}
+        to {width:80%;
+            left: 25%;}
+      }
     
 
-}
 .splash-img {
     width: 80%;
     position: relative;
-    left: 11%;
-    
+    left: 25%;
+    animation-name: grow;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
 }
 
 .splash-text{
@@ -155,3 +165,7 @@
         width: 90%;
     }
 }
+
+
+  
+ 
