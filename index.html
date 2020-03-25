@@ -5,16 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stay inside</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
 </head>
 
 
 <body> <div class="container">
+
+
     
     
     <section id="navigation">
 
-    <div class="main-header">
-         <nav></nav>
+    <div class="main-header" id="my-main-header">
+        <div class="logo-container">
+            <img class="logo" src="resources/logo.jpg" alt="house-logo">
+        </div>
+         <nav>
+            <ul> 
+                <!-- <li> <a class="nav-link" href="index.html"> Home </a> </li> -->
+                <li> <a class="nav-link" href="#"> Section 1 </a> </li>
+                <li> <a class="nav-link" href="#"> Section 2 </a> </li>
+                <li> <a class="nav-link" href="#"> Section 3 </a> </li>
+            </ul>
+         </nav>
+         
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="mob-menu" id="my-mob-menu">
+                <div class="mob-menu1"></div>
+                <div class="mob-menu2"></div>
+                <div class="mob-menu3"></div>
+            </div>
+        </a>
     </div>
     </section>  
     
@@ -75,7 +96,9 @@
 
 
     
-    </div>
+</div>
+<script src="mobileNav.js"></script>
+
 </body>
 
 
