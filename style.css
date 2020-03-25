@@ -20,7 +20,7 @@
     display: flex;
     /* flex-wrap: wrap-reverse; */
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 100vw;
     height: 74vh;
     background-color:#519872;
@@ -30,16 +30,27 @@
 .splash-graphic{
    
     align-self: center;
-    width: 36%;
+    width: 46%;
     display: flex;
+    margin-top: 5%;
+  
+    
+}
+    @keyframes grow {
+        from {width: 20%;
+            left: 0%;}
+        to {width:80%;
+            left: 25%;}
+      }
     
 
-}
 .splash-img {
-    width: 100%;
+    width: 80%;
     position: relative;
-    left: 11%;
-    
+    left: 25%;
+    animation-name: grow;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
 }
 
 .splash-text{
@@ -48,7 +59,8 @@
     
     align-self: center;
     border-left: 2px solid #474747;
-    width: 35vw;}
+    width: 55%;
+}
 .splash-text h2{
     font-size: 0.4em;
 }
@@ -56,7 +68,7 @@
     display: flex;
     /* flex-wrap: wrap; */
     width: 100vw;
-    height: 54vh;
+    /* height: 54vh; */
     background-color:#E2EFDE;
     flex-direction: row;
     /* justify-content: space-around; */
@@ -92,17 +104,68 @@
     font-size: 1.1em;
 }
 .graphics{
-    height: 100%;
-    width: 60%;
+    /* height: 100%; */
+    width: 80%;
     /* border: 2px solid #474747; */
+    margin-top: 5%;
    
     
 }
 .inside-img{
     max-height: 90%;
-    max-width: 65%;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    max-width: 80%;
+    
 }
 
 
+@media only screen and (max-width: 768px) {
+    .exercise-overview, .entertainment-overview, .learn-overview{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        justify-content: center;
+    }
+    .inside-img {
+       
+        max-width: 100%;
+        margin-top: 9%;
+        margin-bottom: 1%;
+    }
+    .graphics {
+        align-self: center;
+        width: 75%;
+        margin-top: 5%;
+        
+    }
+    .home-splash{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-description{
+    margin-bottom: 1%;
+    margin-left: 10%;
+    
+    } 
+    .splash-text{
+        
+        font-size: 2.4em;
+        
+        align-self: flex-start;
+        border-top: 2px solid #474747;
+        
+        border-left: 0;
+        text-align: center;
+        width: 55%;
+    }
+    .splash-text h2{
+        font-size: 0.5em;
+    }
+    .splash-graphic{
+        width: 90%;
+    }
+}
+
+
+  
+ 
