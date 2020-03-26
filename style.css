@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     font-family: 'Neucha', cursive;
+    overflow-x: hidden;
 }
 .container {
     display: flex;

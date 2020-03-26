@@ -2,6 +2,7 @@
 
 html {
     font-family: 'Quattrocento', serif;
+    overflow-x: hidden;
 }
 
 * {
@@ -118,7 +119,7 @@ li{
     display: inline-block;
     position: relative;
     width: 300px;
-    margin: 60px;
+    margin: 100px;
 }
 
 .card-img {
@@ -223,8 +224,13 @@ h2{
 
 
 /*********** Mobile Version *************/
+@media screen and (min-width: 2000){
+  .cards{
 
+margin: 230px;
+} 
 
+}
 @media screen and (max-width: 600px){
 
     .nav-link {
