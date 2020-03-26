@@ -1,7 +1,9 @@
+
 /*********** Body *************/
 
 html {
     font-family: 'Quattrocento', serif;
+   
 }
 
 * {
@@ -20,6 +22,7 @@ html {
 .main-header {
     width: 100vw;
     height: 11vh;
+
     background-color: #E2EFDE;
     display: flex;
     flex-direction: row;
