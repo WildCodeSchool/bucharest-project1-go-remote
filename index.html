@@ -6,12 +6,13 @@
     <title>Stay inside</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="map.js"></script>
 </head>
 
 
-<body> <div class="container">
-
-
+<body> 
+    <div class="container">
     
     
     <section id="navigation">
@@ -86,21 +87,42 @@
 
     </div>
 </section>
-<section id="footer">
-    <div class="footer-mobile footer-normal"></div>
 
+<!-- FOOTER -->
 
+    <footer>
 
-</section>
-
-
-
-    
-</div>
-<script src="mobileNav.js"></script>
-
+        <div class="footer-left">
+             <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Exercise</a></li>
+              <li><a href="#">Entertain</a></li>
+              <li><a href="#">Learn</a></li>
+            </ul>
+          </div>
+        <div class="map">
+        <div>
+            <i class="fa fa-map-marker fa-2x"></i>
+        </div>
+        <div id="map"></div>
+        </div>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/wildcodeschool/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/wildcodeschool?lang=en"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/wildcodeschool/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/wild-codes-chool/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCi99G_0QPx5sYsK8zdvQzfw"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="footer-right">
+            <h4>Stay@Home</h4>
+                <p><span>We offer the best resources to help you enjoy staying at home</span></p>
+        </div>
+        </div>
+        </footer>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9n9Xtjjw-_tzovu7o1d-FOGKnvHppUwQ&callback=initMap">
+    </script>
+    <script src="mobileNav.js"></script>
+    </div>
 </body>
-
-
-
 </html>
