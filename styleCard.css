@@ -14,7 +14,7 @@ html {
 
 .main-header {
     width: 100vw;
-    /* height: 12vh; */
+    height: 11vh;
     /* border-bottom: 2px solid black; */
     background-color: #E2EFDE;
     display: flex;
