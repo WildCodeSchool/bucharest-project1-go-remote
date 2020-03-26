@@ -1,7 +1,7 @@
 /*********** Body *************/
 
 html {
-    font-family: 'Quattrocento', serif;
+
     overflow-x: hidden;
 }
 
@@ -27,6 +27,7 @@ html {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    font-family: 'Sen', sans-serif;
 }
 
 .main-header .icon {
@@ -92,7 +93,7 @@ li{
 /*********** Cards *************/
 
 .cards-container {
-   
+    font-family: 'Sen', sans-serif;
     width: 100vw;
     background-color:#519872;
 }
@@ -119,7 +120,7 @@ li{
     display: inline-block;
     position: relative;
     width: 300px;
-    margin: 100px;
+    margin: 80px;
 }
 
 .card-img {
