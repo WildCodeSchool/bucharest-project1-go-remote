@@ -1,3 +1,5 @@
+/*********** Body *************/
+
 *{
     margin: 0;
     border: 0;
@@ -9,6 +11,8 @@
     flex-wrap: wrap;
 
 }
+
+/*********** Nav-bar *************/
 
 .main-header {
     width: 100vw;
@@ -34,7 +38,6 @@ li{
     padding: 10px;
     padding-right: 30px;
     padding-left: 20px;
-  
 }
 
 .logo{
@@ -44,8 +47,6 @@ li{
     border: 2px solid black;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
-    /* transition: box-shadow 1s;
-    transition-timing-function: ease-in-out; */
 }
 
 .logo:hover {
@@ -88,7 +89,7 @@ li{
 
 
 
-
+/*********** Home-splash *************/
 
 
 .home-splash{
@@ -139,19 +140,20 @@ li{
 .splash-text h2{
     font-size: 0.4em;
 }
+
+/*********** Exercise/Enjoy/Learn *************/
+
 .exercise-overview, .entertainment-overview, .learn-overview{
     display: flex;
-    /* flex-wrap: wrap; */
     width: 100vw;
-    /* height: 54vh; */
     background-color:#E2EFDE;
     flex-direction: row;
-    /* justify-content: space-around; */
-    /* border: 1.5px solid red; */
-
 }
 
 
+
+
+/*********** Footer *************/
 
 .footer-normal{
     width: 100vw;
@@ -166,7 +168,7 @@ li{
     margin-left: 15%;
     margin-right: 5%;
     /* border: 1.5px solid rgb(12, 100, 49); */
-    border: 1px solid;
+   
 }
 .text-description h2 {
     
@@ -193,7 +195,7 @@ li{
     
 }
 
-
+/*********** Mobile Version *************/
 
 @media screen and (max-width: 600px){
    
@@ -284,8 +286,26 @@ li{
     }
 
    
+    
+
+
+    .main-header.responsive nav ul li .nav-link, .logo-container{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+    .main-header.responsive nav{
+        margin-left: 36%;
+
+    }
+
+
     .main-header.responsive nav ul{
         padding-left: 0px;  
+        border-top: 1px solid black;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -299,11 +319,7 @@ li{
     }
 
 
-    .main-header.responsive nav ul li .nav-link, .logo-container{
-        float: none;
-        display: block;
-        text-align: left;
-    }
+
 
     .mob-menu.change .mob-menu1 {
         -webkit-transform: rotate(-45deg) translate(-9px, 6px);
@@ -319,7 +335,6 @@ li{
         -webkit-transform: rotate(45deg) translate(-8px, -8px);
         transform: rotate(45deg) translate(-8px, -8px);
     }
-    
 
 
 
