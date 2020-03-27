@@ -149,7 +149,11 @@ font-family: 'Sen', sans-serif;
     margin-bottom: 5vh;
     font-size: 2em;
 }
+.learn-graphics{
+  margin-left: 10%;
 
+
+}
 .splash-graphic {
   align-self: center;
   width: 46%;
