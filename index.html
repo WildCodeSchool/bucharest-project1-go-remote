@@ -6,12 +6,17 @@
     <title>Stay inside</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="map.js"></script>
 </head>
 
 
-<body> <div class="container">
-
-
+<body> 
+    <div class="container">
     
     
     <section id="navigation">
@@ -53,54 +58,73 @@
 <section id="exercise">
     <div class="exercise-overview">
         <div class="text-description">
-            <h2> EXERCISE </h2>
-            <h3>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos quisquam inventore minus omnis ea pariatur, consequuntur sunt excepturi et! Enim vel fugit vitae explicabo ab officia dolor cum eveniet!
-            </h3>
+            <h2> Exercise </h2>
+            <h3>Take care of your body, it's the only one you got !
+            </h3><h4> We know being inside the house doesn't necessarily motivate you into fitness activities,
+                but exercise is an important factor for you overall physical and mental health. A little goes a long way and being in good shape this summer will definetely feel good.</h4>
     </div>
         <div class="graphics">
             <img class="inside-img" src="./resources/undraw_pilates_gpdb.svg" alt="sss2" >
         </div>
     </div>
 </section>
-
-<section id="entertainment">
-    <div class="entertainment-overview">
-        <div class="text-description">
+<section id="learn">
+    <div class="learn-overview">
+        <div class="text-description-learn">
             <h2>Learn</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi placeat, aspernatur id ea fugiat cupiditate rem odio esse quia, dolor praesentium magni consequatur ad saepe vitae neque autem fuga.</h3></div>
-            <div class="graphics">
+            <h3>Sure netflix is cool, but have you tried learning something ?</h3><h4> Let's face it, boredom comes to all of us while inside our comfy homes.
+                Might as well make the most of it and learn some new stuff. The human brain is always thirsty for new information. Give it what it wants !</h4></div>
+            <div class="graphics learn-graphics">
                 <img class="inside-img" src="./resources/inspiration.svg" alt="sss3" >
             </div>
     </div>
 </section>
-
-<section id="learn">
-    <div class="learn-overview">
+<section id="entertainment">
+    <div class="entertainment-overview">
         <div class="text-description">
             <h2>Enjoy</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi placeat, aspernatur id ea fugiat cupiditate rem odio esse quia, dolor praesentium magni consequatur ad saepe vitae neque autem fuga.</h3></div>
+            <h3>Tired ? Worried ? Maybe just bored ?</h3>
+            <h4> Not an issue ! Browse this section and have your pick of stuff to kill time !</h4></div>
             <div class="graphics">
                 <img class="inside-img" src="./resources/relax.svg" alt="sss" >
             </div>
-
     </div>
 </section>
 
-<section id="footer">
-    <div class="footer-mobile footer-normal"></div>
 
+<!-- FOOTER -->
 
+    <footer>
 
-</section>
-
-
-
-    
-</div>
-<script src="mobileNav.js"></script>
-
+        <div class="footer-left">
+             <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Exercise.html">Exercise</a></li>
+              <li><a href="Learn.html">Learn</a></li>
+              <li><a href="Enjoy.html">Enjoy</a></li>
+            </ul>
+          </div>
+        <div class="map">
+       
+        <div id="map"></div>
+        </div>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/wildcodeschool/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/wildcodeschool?lang=en"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/wildcodeschool/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/wild-codes-chool/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCi99G_0QPx5sYsK8zdvQzfw"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="footer-right">
+            <h4>Stay@Home</h4>
+                <p><span>We offer the best resources to help you enjoy staying at home</span></p>
+        </div>
+        </div>
+        </footer>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9n9Xtjjw-_tzovu7o1d-FOGKnvHppUwQ&callback=initMap">
+    </script>
+    <script src="mobileNav.js"></script>
+    </div>
 </body>
-
-
-
 </html>
