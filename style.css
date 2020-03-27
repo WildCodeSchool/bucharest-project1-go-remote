@@ -19,7 +19,7 @@
     font-family: 'Sen', sans-serif;
   width: 100vw;
   height: 11vh;
-  /* border-bottom: 2px solid black; */
+
   background-color: #e2efde;
   display: flex;
   flex-direction: row;
@@ -88,14 +88,12 @@ li{
 
 .home-splash {
   display: flex;
-  /* flex-wrap: wrap-reverse; */
+ 
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 74vh;
   background-color: #519872;
-  /* border: 1.5px solid red; */
-
   
   
 
@@ -123,7 +121,6 @@ li{
   display: flex;
   font-family: 'Sen', sans-serif;
   width: 100vw;
-  /* height: 54vh; */
   background-color: #e2efde;
   flex-direction: row;
  
